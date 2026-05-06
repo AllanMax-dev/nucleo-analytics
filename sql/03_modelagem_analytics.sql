@@ -1,0 +1,2 @@
+-- Script reservado para criação da camada analítica do projeto.
+-- Futuramente deve conter views, tabelas derivadas ou consultas de apoio ao dashboard.

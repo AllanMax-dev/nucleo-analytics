@@ -1,0 +1,2 @@
+-- Script reservado para comandos de carga dos dados no PostgreSQL.
+-- A estratégia de carga será definida depois da criação das tabelas.

@@ -1,0 +1,2 @@
+-- Script reservado para consultas SQL dos principais indicadores de negócio.
+-- As consultas serão implementadas depois da definição das regras de negócio.

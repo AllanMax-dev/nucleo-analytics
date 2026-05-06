@@ -1,0 +1,2 @@
+-- Script reservado para criação das tabelas relacionais do projeto.
+-- As definições de schema serão adicionadas após a modelagem inicial dos dados.
