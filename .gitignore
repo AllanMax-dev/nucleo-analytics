@@ -1,0 +1,44 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Variaveis de ambiente e segredos locais
+.env
+.env.*
+!.env.example
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Dados locais gerados
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Arquivos de banco e volumes locais
+*.db
+*.sqlite
+*.sqlite3
+postgres_data/
+
+# Arquivos temporarios
+*.log
+*.tmp
+*.bak
+~$*
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
