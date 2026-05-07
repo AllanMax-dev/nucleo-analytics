@@ -1,0 +1,486 @@
+{
+  "gerado_em": "2026-05-07T14:29:23",
+  "total_validacoes": 60,
+  "resultados": [
+    {
+      "tabela": "clientes",
+      "validacao": "quantidade_linhas_colunas",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "500 linhas e 8 colunas."
+    },
+    {
+      "tabela": "clientes",
+      "validacao": "colunas_esperadas",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "faltantes=[]; extras=[]"
+    },
+    {
+      "tabela": "clientes",
+      "validacao": "valores_nulos",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "nulos={}; percentual={}"
+    },
+    {
+      "tabela": "clientes",
+      "validacao": "duplicidades_exatas",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "0 linha(s) duplicada(s)."
+    },
+    {
+      "tabela": "clientes",
+      "validacao": "tipos_identificados",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "{\"cliente_id\": \"str\", \"nome_empresa\": \"str\", \"segmento\": \"str\", \"porte_empresa\": \"str\", \"cidade\": \"str\", \"estado\": \"str\", \"data_cadastro\": \"str\", \"status_cliente\": \"str\"}"
+    },
+    {
+      "tabela": "planos",
+      "validacao": "quantidade_linhas_colunas",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "5 linhas e 5 colunas."
+    },
+    {
+      "tabela": "planos",
+      "validacao": "colunas_esperadas",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "faltantes=[]; extras=[]"
+    },
+    {
+      "tabela": "planos",
+      "validacao": "valores_nulos",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "nulos={}; percentual={}"
+    },
+    {
+      "tabela": "planos",
+      "validacao": "duplicidades_exatas",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "0 linha(s) duplicada(s)."
+    },
+    {
+      "tabela": "planos",
+      "validacao": "tipos_identificados",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "{\"plano_id\": \"str\", \"nome_plano\": \"str\", \"valor_mensal\": \"float64\", \"limite_usuarios\": \"int64\", \"categoria_plano\": \"str\"}"
+    },
+    {
+      "tabela": "assinaturas",
+      "validacao": "quantidade_linhas_colunas",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "650 linhas e 6 colunas."
+    },
+    {
+      "tabela": "assinaturas",
+      "validacao": "colunas_esperadas",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "faltantes=[]; extras=[]"
+    },
+    {
+      "tabela": "assinaturas",
+      "validacao": "valores_nulos",
+      "status": "ALERTA",
+      "severidade": "ALERTA",
+      "quantidade_problemas": 468,
+      "detalhes": "nulos={'data_fim': 468}; percentual={'data_fim': 72.0}"
+    },
+    {
+      "tabela": "assinaturas",
+      "validacao": "duplicidades_exatas",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "0 linha(s) duplicada(s)."
+    },
+    {
+      "tabela": "assinaturas",
+      "validacao": "tipos_identificados",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "{\"assinatura_id\": \"str\", \"cliente_id\": \"str\", \"plano_id\": \"str\", \"data_inicio\": \"str\", \"data_fim\": \"str\", \"status_assinatura\": \"str\"}"
+    },
+    {
+      "tabela": "pagamentos",
+      "validacao": "quantidade_linhas_colunas",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "5810 linhas e 8 colunas."
+    },
+    {
+      "tabela": "pagamentos",
+      "validacao": "colunas_esperadas",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "faltantes=[]; extras=[]"
+    },
+    {
+      "tabela": "pagamentos",
+      "validacao": "valores_nulos",
+      "status": "ALERTA",
+      "severidade": "ALERTA",
+      "quantidade_problemas": 359,
+      "detalhes": "nulos={'data_pagamento': 359}; percentual={'data_pagamento': 6.18}"
+    },
+    {
+      "tabela": "pagamentos",
+      "validacao": "duplicidades_exatas",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "0 linha(s) duplicada(s)."
+    },
+    {
+      "tabela": "pagamentos",
+      "validacao": "tipos_identificados",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "{\"pagamento_id\": \"str\", \"assinatura_id\": \"str\", \"cliente_id\": \"str\", \"data_pagamento\": \"str\", \"mes_referencia\": \"str\", \"valor_pago\": \"float64\", \"status_pagamento\": \"str\", \"metodo_pagamento\": \"str\"}"
+    },
+    {
+      "tabela": "campanhas_marketing",
+      "validacao": "quantidade_linhas_colunas",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "18 linhas e 8 colunas."
+    },
+    {
+      "tabela": "campanhas_marketing",
+      "validacao": "colunas_esperadas",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "faltantes=[]; extras=[]"
+    },
+    {
+      "tabela": "campanhas_marketing",
+      "validacao": "valores_nulos",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "nulos={}; percentual={}"
+    },
+    {
+      "tabela": "campanhas_marketing",
+      "validacao": "duplicidades_exatas",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "0 linha(s) duplicada(s)."
+    },
+    {
+      "tabela": "campanhas_marketing",
+      "validacao": "tipos_identificados",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "{\"campanha_id\": \"str\", \"nome_campanha\": \"str\", \"canal\": \"str\", \"data_inicio\": \"str\", \"data_fim\": \"str\", \"investimento\": \"float64\", \"leads_gerados\": \"int64\", \"clientes_convertidos\": \"int64\"}"
+    },
+    {
+      "tabela": "tickets_suporte",
+      "validacao": "quantidade_linhas_colunas",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "1200 linhas e 9 colunas."
+    },
+    {
+      "tabela": "tickets_suporte",
+      "validacao": "colunas_esperadas",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "faltantes=[]; extras=[]"
+    },
+    {
+      "tabela": "tickets_suporte",
+      "validacao": "valores_nulos",
+      "status": "ALERTA",
+      "severidade": "ALERTA",
+      "quantidade_problemas": 600,
+      "detalhes": "nulos={'data_fechamento': 200, 'tempo_resolucao_horas': 200, 'satisfacao_cliente': 200}; percentual={'data_fechamento': 16.67, 'tempo_resolucao_horas': 16.67, 'satisfacao_cliente': 16.67}"
+    },
+    {
+      "tabela": "tickets_suporte",
+      "validacao": "duplicidades_exatas",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "0 linha(s) duplicada(s)."
+    },
+    {
+      "tabela": "tickets_suporte",
+      "validacao": "tipos_identificados",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "{\"ticket_id\": \"str\", \"cliente_id\": \"str\", \"data_abertura\": \"str\", \"data_fechamento\": \"str\", \"categoria\": \"str\", \"prioridade\": \"str\", \"status_ticket\": \"str\", \"tempo_resolucao_horas\": \"float64\", \"satisfacao_cliente\": \"float64\"}"
+    },
+    {
+      "tabela": "eventos_uso",
+      "validacao": "quantidade_linhas_colunas",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "6000 linhas e 5 colunas."
+    },
+    {
+      "tabela": "eventos_uso",
+      "validacao": "colunas_esperadas",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "faltantes=[]; extras=[]"
+    },
+    {
+      "tabela": "eventos_uso",
+      "validacao": "valores_nulos",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "nulos={}; percentual={}"
+    },
+    {
+      "tabela": "eventos_uso",
+      "validacao": "duplicidades_exatas",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "0 linha(s) duplicada(s)."
+    },
+    {
+      "tabela": "eventos_uso",
+      "validacao": "tipos_identificados",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "{\"evento_id\": \"str\", \"cliente_id\": \"str\", \"data_evento\": \"str\", \"tipo_evento\": \"str\", \"quantidade_eventos\": \"int64\"}"
+    },
+    {
+      "tabela": "clientes",
+      "validacao": "chave_primaria_cliente_id",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "nulos=0; duplicados=0"
+    },
+    {
+      "tabela": "planos",
+      "validacao": "chave_primaria_plano_id",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "nulos=0; duplicados=0"
+    },
+    {
+      "tabela": "assinaturas",
+      "validacao": "chave_primaria_assinatura_id",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "nulos=0; duplicados=0"
+    },
+    {
+      "tabela": "pagamentos",
+      "validacao": "chave_primaria_pagamento_id",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "nulos=0; duplicados=0"
+    },
+    {
+      "tabela": "campanhas_marketing",
+      "validacao": "chave_primaria_campanha_id",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "nulos=0; duplicados=0"
+    },
+    {
+      "tabela": "tickets_suporte",
+      "validacao": "chave_primaria_ticket_id",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "nulos=0; duplicados=0"
+    },
+    {
+      "tabela": "eventos_uso",
+      "validacao": "chave_primaria_evento_id",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "nulos=0; duplicados=0"
+    },
+    {
+      "tabela": "assinaturas",
+      "validacao": "integridade_cliente_id",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "assinaturas.cliente_id -> clientes.cliente_id"
+    },
+    {
+      "tabela": "assinaturas",
+      "validacao": "integridade_plano_id",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "assinaturas.plano_id -> planos.plano_id"
+    },
+    {
+      "tabela": "pagamentos",
+      "validacao": "integridade_assinatura_id",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "pagamentos.assinatura_id -> assinaturas.assinatura_id"
+    },
+    {
+      "tabela": "pagamentos",
+      "validacao": "integridade_cliente_id",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "pagamentos.cliente_id -> clientes.cliente_id"
+    },
+    {
+      "tabela": "tickets_suporte",
+      "validacao": "integridade_cliente_id",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "tickets_suporte.cliente_id -> clientes.cliente_id"
+    },
+    {
+      "tabela": "eventos_uso",
+      "validacao": "integridade_cliente_id",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "eventos_uso.cliente_id -> clientes.cliente_id"
+    },
+    {
+      "tabela": "planos",
+      "validacao": "valor_mensal_maior_que_zero",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "valor_mensal não pode ser menor ou igual a zero."
+    },
+    {
+      "tabela": "pagamentos",
+      "validacao": "valor_pago_nao_negativo",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "valor_pago não pode ser negativo."
+    },
+    {
+      "tabela": "campanhas_marketing",
+      "validacao": "investimento_nao_negativo",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "investimento não pode ser negativo."
+    },
+    {
+      "tabela": "campanhas_marketing",
+      "validacao": "leads_gerados_nao_negativo",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "leads_gerados não pode ser negativo."
+    },
+    {
+      "tabela": "campanhas_marketing",
+      "validacao": "clientes_convertidos_nao_negativo",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "clientes_convertidos não pode ser negativo."
+    },
+    {
+      "tabela": "campanhas_marketing",
+      "validacao": "clientes_convertidos_ate_leads",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "clientes_convertidos não pode ser maior que leads_gerados."
+    },
+    {
+      "tabela": "tickets_suporte",
+      "validacao": "tempo_resolucao_nao_negativo",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "tempo_resolucao_horas não pode ser negativo."
+    },
+    {
+      "tabela": "tickets_suporte",
+      "validacao": "satisfacao_cliente_entre_1_e_5",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "satisfacao_cliente deve estar entre 1 e 5 quando existir."
+    },
+    {
+      "tabela": "eventos_uso",
+      "validacao": "quantidade_eventos_nao_negativa",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "quantidade_eventos não pode ser negativa."
+    },
+    {
+      "tabela": "assinaturas",
+      "validacao": "data_fim_assinatura_apos_inicio",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "data_fim não pode ser anterior à data_inicio."
+    },
+    {
+      "tabela": "tickets_suporte",
+      "validacao": "data_fechamento_apos_abertura",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "data_fechamento não pode ser anterior à data_abertura."
+    },
+    {
+      "tabela": "campanhas_marketing",
+      "validacao": "data_fim_campanha_apos_inicio",
+      "status": "OK",
+      "severidade": "INFORMATIVO",
+      "quantidade_problemas": 0,
+      "detalhes": "data_fim de campanha não pode ser anterior à data_inicio."
+    }
+  ]
+}

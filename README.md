@@ -58,6 +58,16 @@ python src/tratamento.py
 
 Os arquivos tratados são salvos em `data/processed/`.
 
+## Como validar a qualidade dos dados
+
+Depois do tratamento, execute:
+
+```bash
+python src/qualidade_dados.py
+```
+
+Os relatórios são gerados em `reports/`.
+
 ## Arquitetura conceitual
 
 ```text
