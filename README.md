@@ -38,6 +38,16 @@ O objetivo da solução é transformar esses dados em uma visão executiva com m
 - Power BI;
 - Git e GitHub.
 
+## Como gerar os dados sintéticos
+
+Para criar as bases fictícias usadas no projeto, execute:
+
+```bash
+python src/gerar_dados_ficticios.py
+```
+
+Os arquivos completos são salvos em `data/raw/`. Amostras menores são salvas em `data/sample/` para facilitar a visualização no GitHub.
+
 ## Arquitetura conceitual
 
 ```text
@@ -107,12 +117,11 @@ nucleo-analytics/
 
 ## Status do projeto
 
-Projeto em fase inicial. A estrutura base do repositório foi criada, mas as regras de negócio, os dados sintéticos, os pipelines e os indicadores ainda não foram implementados.
+Projeto em fase inicial. A estrutura base do repositório e a geração de dados sintéticos já foram criadas, mas as regras de negócio detalhadas, os pipelines de tratamento, a carga em banco, a modelagem analítica e os indicadores ainda não foram implementados.
 
 ## Próximas etapas
 
 - Definir o modelo conceitual dos dados.
-- Criar os dados fictícios da empresa SaaS.
 - Implementar o pipeline de tratamento com Python.
 - Criar as tabelas no PostgreSQL.
 - Desenvolver a modelagem analítica em SQL.

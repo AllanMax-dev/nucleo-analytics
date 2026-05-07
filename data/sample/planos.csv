@@ -1,0 +1,6 @@
+plano_id,nome_plano,valor_mensal,limite_usuarios,categoria_plano
+PLA001,Essencial,199.0,10,Entrada
+PLA002,Profissional,499.0,35,Crescimento
+PLA003,Business,899.0,80,Crescimento
+PLA004,Enterprise,1499.0,200,Corporativo
+PLA005,Corporativo Plus,2499.0,500,Corporativo

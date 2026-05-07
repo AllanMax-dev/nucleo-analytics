@@ -1,0 +1,19 @@
+campanha_id,nome_campanha,canal,data_inicio,data_fim,investimento,leads_gerados,clientes_convertidos
+CAM001,Aquisição B2B 01,E-mail marketing,2025-01-24,2025-02-26,16486.67,910,74
+CAM002,Aquisição B2B 02,Google Ads,2025-02-02,2025-03-03,35847.11,1564,170
+CAM003,Expansão Enterprise 03,LinkedIn Ads,2025-02-14,2025-03-10,41416.79,507,37
+CAM004,Transformação Digital 04,Google Ads,2025-03-10,2025-04-23,38332.4,1399,118
+CAM005,Aquisição B2B 05,Google Ads,2025-03-19,2025-05-06,47484.35,525,64
+CAM006,Retenção 06,Webinar,2025-03-26,2025-05-16,52921.42,1484,176
+CAM007,Porto Digital 07,Google Ads,2025-03-29,2025-04-28,51948.19,711,57
+CAM008,Expansão Enterprise 08,Indicação,2025-05-28,2025-06-30,34089.86,796,66
+CAM009,Retenção 09,Google Ads,2025-05-28,2025-06-26,24234.22,810,109
+CAM010,Transformação Digital 10,E-mail marketing,2025-06-12,2025-08-20,56439.8,138,18
+CAM011,Transformação Digital 11,Indicação,2025-07-20,2025-08-29,38994.02,804,97
+CAM012,Porto Digital 12,LinkedIn Ads,2025-08-11,2025-10-01,57475.81,292,28
+CAM013,Aquisição B2B 13,Eventos,2025-08-22,2025-09-13,10595.45,302,40
+CAM014,Aquisição B2B 14,Eventos,2025-09-08,2025-10-04,8097.89,1322,153
+CAM015,Retenção 15,Webinar,2025-09-17,2025-10-21,37691.16,1671,193
+CAM016,Transformação Digital 16,Indicação,2025-10-13,2025-11-29,62049.92,994,81
+CAM017,Retenção 17,Indicação,2025-10-13,2025-12-13,45472.87,180,23
+CAM018,Aquisição B2B 18,Eventos,2025-10-22,2025-11-17,34909.54,934,110

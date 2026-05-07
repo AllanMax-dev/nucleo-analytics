@@ -1,0 +1,31 @@
+cliente_id,nome_empresa,segmento,porte_empresa,cidade,estado,data_cadastro,status_cliente
+CLI0001,Nexa Analytics Group 49,Logística,Média,Goiânia,GO,2022-01-04,ativo
+CLI0002,Vector Cloud Ltda 72,Tecnologia,Grande,Recife,PE,2022-01-07,ativo
+CLI0003,Vértice Tecnologia Group 96,Energia,Pequena,Rio de Janeiro,RJ,2022-01-09,cancelado
+CLI0004,Auge Analytics Corporativo 79,Saúde,Pequena,Belo Horizonte,MG,2022-01-10,ativo
+CLI0005,Orion Soluções Enterprise 50,Tecnologia,Média,Brasília,DF,2022-01-15,prospect
+CLI0006,Orion Serviços S.A. 92,Saúde,Média,Olinda,PE,2022-01-17,ativo
+CLI0007,Prisma Gestão Brasil 83,Indústria,Média,Belo Horizonte,MG,2022-01-17,ativo
+CLI0008,Orion Digital Brasil 30,Logística,Pequena,Jaboatão dos Guararapes,PE,2022-01-20,ativo
+CLI0009,Nexa Sistemas Enterprise 15,Indústria,Pequena,Brasília,DF,2022-01-23,ativo
+CLI0010,Datta Cloud S.A. 66,Saúde,Média,Porto Alegre,RS,2022-01-26,prospect
+CLI0011,Nexa Analytics Corporativo 41,Saúde,Pequena,Belo Horizonte,MG,2022-01-27,ativo
+CLI0012,Atlas Operações Brasil 89,Telecomunicações,Pequena,Rio de Janeiro,RJ,2022-01-30,ativo
+CLI0013,Auge Analytics Corporativo 27,Consultoria,Média,Jaboatão dos Guararapes,PE,2022-02-06,ativo
+CLI0014,Horizonte Digital Brasil 13,Energia,Média,Goiânia,GO,2022-02-08,ativo
+CLI0015,Orion Soluções Corporativo 70,Saúde,Grande,Salvador,BA,2022-02-08,ativo
+CLI0016,Conecta Analytics Brasil 96,Telecomunicações,Pequena,Campinas,SP,2022-02-09,ativo
+CLI0017,Horizonte Serviços Enterprise 42,Logística,Pequena,Rio de Janeiro,RJ,2022-02-10,ativo
+CLI0018,Atlas Digital Corporativo 26,Serviços financeiros,Grande,Fortaleza,CE,2022-02-11,ativo
+CLI0019,Vector Soluções Corporativo 52,Saúde,Pequena,Fortaleza,CE,2022-02-13,ativo
+CLI0020,Lumina Consultoria Group 69,Consultoria,Pequena,Belo Horizonte,MG,2022-02-15,ativo
+CLI0021,Conecta Digital Ltda 84,Indústria,Pequena,Campinas,SP,2022-02-16,ativo
+CLI0022,Sinergia Analytics Ltda 37,Tecnologia,Média,Salvador,BA,2022-02-16,ativo
+CLI0023,Prisma Cloud Brasil 81,Educação,Grande,Salvador,BA,2022-02-19,prospect
+CLI0024,Datta Serviços Enterprise 35,Indústria,Média,Porto Alegre,RS,2022-02-20,ativo
+CLI0025,Vértice Gestão Group 22,Tecnologia,Média,Olinda,PE,2022-02-20,cancelado
+CLI0026,Prisma Soluções Corporativo 10,Varejo,Pequena,Belo Horizonte,MG,2022-02-23,prospect
+CLI0027,Prisma Analytics Corporativo 69,Indústria,Pequena,Porto Alegre,RS,2022-02-24,prospect
+CLI0028,Vector Analytics S.A. 79,Consultoria,Pequena,Florianópolis,SC,2022-02-26,ativo
+CLI0029,Orion Digital Group 60,Tecnologia,Pequena,Curitiba,PR,2022-02-27,ativo
+CLI0030,Atlas Soluções S.A. 20,Serviços financeiros,Pequena,Campinas,SP,2022-02-28,prospect
