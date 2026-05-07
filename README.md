@@ -48,6 +48,16 @@ python src/gerar_dados_ficticios.py
 
 Os arquivos completos são salvos em `data/raw/`. Amostras menores são salvas em `data/sample/` para facilitar a visualização no GitHub.
 
+## Como tratar os dados
+
+Depois de gerar os arquivos brutos, execute:
+
+```bash
+python src/tratamento.py
+```
+
+Os arquivos tratados são salvos em `data/processed/`.
+
 ## Arquitetura conceitual
 
 ```text
