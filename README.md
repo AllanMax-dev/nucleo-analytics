@@ -68,6 +68,20 @@ python src/qualidade_dados.py
 
 Os relatórios são gerados em `reports/`.
 
+## Como carregar os dados no PostgreSQL
+
+Suba o banco local com Docker Compose:
+
+```bash
+docker compose up -d
+```
+
+Depois carregue os arquivos tratados:
+
+```bash
+python src/carga_postgres.py
+```
+
 ## Arquitetura conceitual
 
 ```text

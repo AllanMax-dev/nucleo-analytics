@@ -1,2 +1,16 @@
--- Script reservado para comandos de carga dos dados no PostgreSQL.
--- A estratégia de carga será definida depois da criação das tabelas.
+-- A carga dos dados tratados é feita pelo script Python:
+--
+--     python src/carga_postgres.py
+--
+-- O script lê os arquivos CSV de data/processed/ e carrega as tabelas na
+-- ordem correta para respeitar as chaves estrangeiras:
+--
+-- 1. clientes
+-- 2. planos
+-- 3. assinaturas
+-- 4. pagamentos
+-- 5. campanhas_marketing
+-- 6. tickets_suporte
+-- 7. eventos_uso
+--
+-- Este arquivo fica como referência operacional para a etapa de carga.

@@ -4,8 +4,8 @@ services:
     container_name: nucleo_analytics_postgres
     environment:
       POSTGRES_DB: nucleo_analytics
-      POSTGRES_USER: nucleo_user
-      POSTGRES_PASSWORD: nucleo_password
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
     ports:
       - "5432:5432"
     volumes:
